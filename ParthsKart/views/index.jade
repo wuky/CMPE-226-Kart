@@ -1,0 +1,53 @@
+extends layout
+
+block content
+  h1 Parths Kart
+  p Welcome to Parths Kart
+    br
+    br
+    br
+  
+  div.item_display
+        img(src='/images/1.jpeg' class='item_images')
+        div.item_attributes
+            p.attribute 
+                = 'Item Name: ' + userlist[0].Name
+            p.attribute
+                = 'Item Price($): ' + userlist[0].Price
+            p.attribute 
+                = 'Item Description: ' + userlist[0].Description
+            br
+    
+    div.item_display
+        img(src='/images/2.jpeg' class='item_images')
+        div.item_attributes
+            p.attribute 
+                = 'Item Name: ' + userlist[1].Name
+            p.attribute
+                = 'Item Price($): ' + userlist[1].Price
+            p.attribute 
+                = 'Item Description: ' + userlist[1].Description
+            br
+    
+    div.item_display
+        img(src='/images/3.jpeg' class='item_images')
+        div.item_attributes
+            p.attribute 
+                = 'Item Name: ' + userlist[2].Name
+            p.attribute
+                = 'Item Price($): ' + userlist[2].Price
+            p.attribute 
+                = 'Item Description: ' + userlist[2].Description
+                
+    div.item_display
+        img(src='/images/4.jpeg' class='item_images')
+        div.item_attributes
+            p.attribute 
+                = 'Item Name: ' + userlist[3].Name
+            p.attribute
+                = 'Item Price($): ' + userlist[3].Price
+            p.attribute 
+                = 'Item Description: ' + userlist[3].Description
+  
+  
+  
